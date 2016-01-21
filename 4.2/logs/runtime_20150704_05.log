@@ -1,0 +1,556 @@
+
+
+   Sails              <|
+   v0.10.5             |\
+                      /|.\
+                     / || \
+                   ,'  |'  \
+                .-'.-==|/_--'
+                `--'-------' 
+   __---___--___---___--___---___--___
+ ____---___--___---___--___---___--___-__
+
+Server lifted in `/opt/expresssome_testing`
+To see your app, visit [4mhttp://localhost:1337[24m
+To shut down Sails, press <CTRL> + C at any time.
+
+[90m--------------------------------------------------------[39m
+[90m:: Sat Jul 04 2015 06:03:54 GMT-0400 (EDT)[39m
+
+Environment : production
+Port        : 1337
+[90m--------------------------------------------------------[39m
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+==================================================================================
+= BEGIN REQUEST | ::ffff:27.67.26.153 - /chat/test/notify - undefined
+== BEGIN CONTROLLER | MessageController -> notify
+=== BEGIN SERVICE | NotificationServices -> testNotification
+=== END SERVICE   | NotificationServices -> testNotification
+== END CONTROLLER   | MessageController -> notify
+= END REQUEST   | ::ffff:27.67.26.153 - /chat/test/notify - undefined
+==================================================================================
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+Push notification to : a62f2731073fc8c1189151c06e052bd216bad229e00ca0c8d609cc3419f6cf74
+Push notification to : ccc5c14078a94c9893838ce5dae4a0fc61f9d669fd9becdbcf7703ad3f15808c
+Push notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+APN error: 513
+APN error: 513
+APN error: 513
+APN error: 513
+APN error: Error: error:0906A068:PEM routines:PEM_do_header:bad password read
+APN socketError: Error: error:0906A068:PEM routines:PEM_do_header:bad password read
+APN completed
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+==================================================================================
+= BEGIN REQUEST | ::ffff:27.67.26.153 - /chat/test/notify - undefined
+== BEGIN CONTROLLER | MessageController -> notify
+=== BEGIN SERVICE | NotificationServices -> testNotification
+=== END SERVICE   | NotificationServices -> testNotification
+== END CONTROLLER   | MessageController -> notify
+= END REQUEST   | ::ffff:27.67.26.153 - /chat/test/notify - undefined
+==================================================================================
+APN error: 515
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+APN error: 515
+Push notification to : a62f2731073fc8c1189151c06e052bd216bad229e00ca0c8d609cc3419f6cf74
+APN error: 515
+Push notification to : ccc5c14078a94c9893838ce5dae4a0fc61f9d669fd9becdbcf7703ad3f15808c
+APN error: 515
+Push notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/contestinfo/create - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> create
+== END CONTROLLER   | ContestInfoController -> create
+=== BEGIN SERVICE | ExpContestInfoServices -> create
+=== END SERVICE   | ExpContestInfoServices -> create
+= END REQUEST   | ::ffff:58.187.99.15 - /api/contestinfo/create - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/upload - multipart/form-data; boundary=Boundary+5A54F00AD88ABF6C
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ImageManageController -> upload
+== END CONTROLLER   | ImageManageController -> upload
+=== BEGIN SERVICE | ExpImageManageServices -> upload
+=== END SERVICE   | ExpImageManageServices -> upload
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/upload - multipart/form-data; boundary=Boundary+5A54F00AD88ABF6C
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/contestinfo/invite - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> invite
+== END CONTROLLER   | ContestInfoController -> invite
+=== BEGIN SERVICE | ExpContestInfoServices -> inviteGroup
+=== END SERVICE   | ExpContestInfoServices -> inviteGroup
+= END REQUEST   | ::ffff:58.187.99.15 - /api/contestinfo/invite - application/x-www-form-urlencoded
+==================================================================================
+=== BEGIN SERVICE | NotificationServices -> inviteJoinContest
+=== END SERVICE   | NotificationServices -> inviteJoinContest
+APN error: 515
+Push notification to : a62f2731073fc8c1189151c06e052bd216bad229e00ca0c8d609cc3419f6cf74
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/contestinfo/detail?id=205 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> detail
+=== BEGIN SERVICE | ExpContestInfoServices -> detail
+=== END SERVICE   | ExpContestInfoServices -> detail
+== END CONTROLLER   | ContestInfoController -> detail
+= END REQUEST   | ::ffff:58.187.99.15 - /api/contestinfo/detail?id=205 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=205&fileName=345.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=205&fileName=345.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=205&fileName=345.jpg - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/contestinfo/players - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> players
+== END CONTROLLER   | ContestInfoController -> players
+=== BEGIN SERVICE | ExpContestInfoServices -> listPlayers
+=== END SERVICE   | ExpContestInfoServices -> listPlayers
+= END REQUEST   | ::ffff:58.187.99.15 - /api/contestinfo/players - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/groupinfo/members - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> members
+== END CONTROLLER   | GroupInfoController -> leave
+=== BEGIN SERVICE | ExpGroupInfoServices -> listMembers
+=== END SERVICE   | ExpGroupInfoServices -> listMembers
+= END REQUEST   | ::ffff:58.187.99.15 - /api/groupinfo/members - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/authenticate/registry - application/x-www-form-urlencoded
+== BEGIN CONTROLLER | AuthenticateController -> registry
+== END CONTROLLER   | AuthenticateController -> registry
+=== BEGIN SERVICE | UserAuthService -> registry
+=== END SERVICE   | UserAuthService -> registry
+= END REQUEST   | ::ffff:58.187.99.15 - /api/authenticate/registry - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/authenticate/setmachinecode - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | AuthenticateController -> setMachineCode
+== END CONTROLLER   | AuthenticateController -> setMachineCode
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+= END REQUEST   | ::ffff:58.187.99.15 - /api/authenticate/setmachinecode - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/groupinfo/search - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> search
+=== BEGIN SERVICE | ExpGroupInfoServices -> search
+=== END SERVICE   | ExpGroupInfoServices -> search
+== END CONTROLLER   | GroupInfoController -> search
+= END REQUEST   | ::ffff:58.187.99.15 - /api/groupinfo/search - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=4&fileName=12.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=4&fileName=12.jpg - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=1&fileName=2.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=1&fileName=2.jpg - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=16&fileName=64.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=16&fileName=64.jpg - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=17&fileName=65.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=17&fileName=65.jpg - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/groupinfo/search - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> search
+=== BEGIN SERVICE | ExpGroupInfoServices -> search
+=== END SERVICE   | ExpGroupInfoServices -> search
+== END CONTROLLER   | GroupInfoController -> search
+= END REQUEST   | ::ffff:58.187.99.15 - /api/groupinfo/search - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/groupinfo/search - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> search
+=== BEGIN SERVICE | ExpGroupInfoServices -> search
+=== END SERVICE   | ExpGroupInfoServices -> search
+== END CONTROLLER   | GroupInfoController -> search
+= END REQUEST   | ::ffff:58.187.99.15 - /api/groupinfo/search - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=6&fileName=26.jpg - undefined
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=15&fileName=63.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=35&fileName=146.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=6&fileName=26.jpg - undefined
+==================================================================================
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=15&fileName=63.jpg - undefined
+==================================================================================
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=35&fileName=146.jpg - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/groupinfo/search - application/x-www-form-urlencoded
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/groupinfo/members - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> search
+=== BEGIN SERVICE | ExpGroupInfoServices -> search
+=== END SERVICE   | ExpGroupInfoServices -> search
+== END CONTROLLER   | GroupInfoController -> search
+= END REQUEST   | ::ffff:58.187.99.15 - /api/groupinfo/search - application/x-www-form-urlencoded
+==================================================================================
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> members
+== END CONTROLLER   | GroupInfoController -> leave
+=== BEGIN SERVICE | ExpGroupInfoServices -> listMembers
+=== END SERVICE   | ExpGroupInfoServices -> listMembers
+= END REQUEST   | ::ffff:58.187.99.15 - /api/groupinfo/members - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=user-avatar&recordId=93&fileName=328.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=user-avatar&recordId=93&fileName=328.jpg - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/groupinfo/join - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> join
+== END CONTROLLER   | GroupInfoController -> join
+=== BEGIN SERVICE | ExpGroupInfoServices -> addMember
+=== END SERVICE   | ExpGroupInfoServices -> addMember
+=== BEGIN SERVICE | ChatRoomServices -> joinGroupPage
+=== END SERVICE   | ChatRoomServices -> joinGroupPage
+=== BEGIN SERVICE | ChatEventServices -> newEvent
+=== BEGIN SERVICE | ChatEventServices -> joinGroup
+=== END SERVICE   | ChatEventServices -> joinGroup
+=== END SERVICE   | ChatEventServices -> newEvent
+=== BEGIN SERVICE | NotificationServices -> joinGroupPage
+=== END SERVICE   | NotificationServices -> joinGroupPage
+= END REQUEST   | ::ffff:58.187.99.15 - /api/groupinfo/join - application/x-www-form-urlencoded
+==================================================================================
+APN error: 515
+Push notification to : a62f2731073fc8c1189151c06e052bd216bad229e00ca0c8d609cc3419f6cf74
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/groupinfo/members - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> members
+== END CONTROLLER   | GroupInfoController -> leave
+=== BEGIN SERVICE | ExpGroupInfoServices -> listMembers
+=== END SERVICE   | ExpGroupInfoServices -> listMembers
+= END REQUEST   | ::ffff:58.187.99.15 - /api/groupinfo/members - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/groupinfo/leave - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> leave
+== END CONTROLLER   | GroupInfoController -> leave
+=== BEGIN SERVICE | ExpGroupInfoServices -> removeMember
+=== END SERVICE   | ExpGroupInfoServices -> removeMember
+=== BEGIN SERVICE | ChatRoomServices -> leaveGroupPage
+=== END SERVICE   | ChatRoomServices -> leaveGroupPage
+=== BEGIN SERVICE | ChatEventServices -> newEvent
+=== BEGIN SERVICE | ChatEventServices -> leaveGroup
+=== END SERVICE   | ChatEventServices -> leaveGroup
+=== END SERVICE   | ChatEventServices -> newEvent
+= END REQUEST   | ::ffff:58.187.99.15 - /api/groupinfo/leave - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/groupinfo/search - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> search
+=== BEGIN SERVICE | ExpGroupInfoServices -> search
+=== END SERVICE   | ExpGroupInfoServices -> search
+== END CONTROLLER   | GroupInfoController -> search
+= END REQUEST   | ::ffff:58.187.99.15 - /api/groupinfo/search - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/groupinfo/search - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> search
+=== BEGIN SERVICE | ExpGroupInfoServices -> search
+=== END SERVICE   | ExpGroupInfoServices -> search
+== END CONTROLLER   | GroupInfoController -> search
+= END REQUEST   | ::ffff:58.187.99.15 - /api/groupinfo/search - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/groupinfo/members - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> members
+== END CONTROLLER   | GroupInfoController -> leave
+=== BEGIN SERVICE | ExpGroupInfoServices -> listMembers
+=== END SERVICE   | ExpGroupInfoServices -> listMembers
+= END REQUEST   | ::ffff:58.187.99.15 - /api/groupinfo/members - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/groupinfo/join - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> join
+== END CONTROLLER   | GroupInfoController -> join
+=== BEGIN SERVICE | ExpGroupInfoServices -> addMember
+=== END SERVICE   | ExpGroupInfoServices -> addMember
+=== BEGIN SERVICE | ChatRoomServices -> joinGroupPage
+=== END SERVICE   | ChatRoomServices -> joinGroupPage
+=== BEGIN SERVICE | ChatEventServices -> newEvent
+=== BEGIN SERVICE | ChatEventServices -> joinGroup
+=== END SERVICE   | ChatEventServices -> joinGroup
+=== END SERVICE   | ChatEventServices -> newEvent
+=== BEGIN SERVICE | NotificationServices -> joinGroupPage
+=== END SERVICE   | NotificationServices -> joinGroupPage
+= END REQUEST   | ::ffff:58.187.99.15 - /api/groupinfo/join - application/x-www-form-urlencoded
+==================================================================================
+APN error: 515
+Push notification to : ccc5c14078a94c9893838ce5dae4a0fc61f9d669fd9becdbcf7703ad3f15808c
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=2 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=2 - undefined
+==================================================================================
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=2 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=2 - undefined
+==================================================================================
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+==================================================================================
+= BEGIN REQUEST | ::ffff:27.67.26.153 - /chat/test/notify - undefined
+== BEGIN CONTROLLER | MessageController -> notify
+=== BEGIN SERVICE | NotificationServices -> testNotification
+=== END SERVICE   | NotificationServices -> testNotification
+== END CONTROLLER   | MessageController -> notify
+= END REQUEST   | ::ffff:27.67.26.153 - /chat/test/notify - undefined
+==================================================================================
+APN error: 515
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+APN error: 515
+Push notification to : a62f2731073fc8c1189151c06e052bd216bad229e00ca0c8d609cc3419f6cf74
+APN error: 515
+Push notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+APN error: 515
+Push notification to : ccc5c14078a94c9893838ce5dae4a0fc61f9d669fd9becdbcf7703ad3f15808c
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+error: Forever detected script exited with code: null

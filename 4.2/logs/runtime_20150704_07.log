@@ -1,0 +1,74 @@
+[32minfo: [39m
+[32minfo: [39m
+[32minfo: [39m   Sails              <|
+[32minfo: [39m   v0.10.5             |\
+[32minfo: [39m                      /|.\
+[32minfo: [39m                     / || \
+[32minfo: [39m                   ,'  |'  \
+[32minfo: [39m                .-'.-==|/_--'
+[32minfo: [39m                `--'-------' 
+[32minfo: [39m   __---___--___---___--___---___--___
+[32minfo: [39m ____---___--___---___--___---___--___-__
+[32minfo: [39m
+[32minfo: [39mServer lifted in `/opt/expresssome_testing`
+[32minfo: [39mTo see your app, visit [4mhttp://localhost:1337[24m
+[32minfo: [39mTo shut down Sails, press <CTRL> + C at any time.
+[37m[39m
+[34mdebug: [39m[90m--------------------------------------------------------[39m
+[34mdebug: [39m[90m:: Sat Jul 04 2015 06:49:31 GMT-0400 (EDT)[39m
+[37m[39m
+[34mdebug: [39mEnvironment : development
+[34mdebug: [39mPort        : 1337
+[34mdebug: [39m[90m--------------------------------------------------------[39m
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:27.67.26.153 - /chat/test/notify - undefined
+[32minfo: [39m== BEGIN CONTROLLER | MessageController -> notify
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> testNotification
+[32minfo: [39m=== END SERVICE   | NotificationServices -> testNotification
+[32minfo: [39m== END CONTROLLER   | MessageController -> notify
+[32minfo: [39m= END REQUEST   | ::ffff:27.67.26.153 - /chat/test/notify - undefined
+[32minfo: [39m==================================================================================
+[34mdebug: [39mPush notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+[34mdebug: [39mPush notification to : a62f2731073fc8c1189151c06e052bd216bad229e00ca0c8d609cc3419f6cf74
+[34mdebug: [39mPush notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+[34mdebug: [39mPush notification to : ccc5c14078a94c9893838ce5dae4a0fc61f9d669fd9becdbcf7703ad3f15808c
+APN error: 513
+APN error: 513
+APN error: 513
+APN error: 513
+APN error: Error: error:0906A068:PEM routines:PEM_do_header:bad password read
+APN socketError: Error: error:0906A068:PEM routines:PEM_do_header:bad password read
+APN completed
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:27.67.26.153 - /chat/test/notify - undefined
+[32minfo: [39m== BEGIN CONTROLLER | MessageController -> notify
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> testNotification
+[32minfo: [39m=== END SERVICE   | NotificationServices -> testNotification
+[32minfo: [39m== END CONTROLLER   | MessageController -> notify
+[32minfo: [39m= END REQUEST   | ::ffff:27.67.26.153 - /chat/test/notify - undefined
+[32minfo: [39m==================================================================================
+APN error: 515
+[34mdebug: [39mPush notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+APN error: 515
+[34mdebug: [39mPush notification to : a62f2731073fc8c1189151c06e052bd216bad229e00ca0c8d609cc3419f6cf74
+APN error: 515
+[34mdebug: [39mPush notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+APN error: 515
+[34mdebug: [39mPush notification to : ccc5c14078a94c9893838ce5dae4a0fc61f9d669fd9becdbcf7703ad3f15808c
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+error: Forever detected script exited with code: null

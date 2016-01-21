@@ -1,0 +1,283 @@
+
+
+   Sails              <|
+   v0.10.5             |\
+                      /|.\
+                     / || \
+                   ,'  |'  \
+                .-'.-==|/_--'
+                `--'-------' 
+   __---___--___---___--___---___--___
+ ____---___--___---___--___---___--___-__
+
+Server lifted in `/opt/expresssome_testing`
+To see your app, visit [4mhttp://localhost:1337[24m
+To shut down Sails, press <CTRL> + C at any time.
+
+
+[90m--------------------------------------------------------[39m
+[90m:: Sat Jul 04 2015 06:42:11 GMT-0400 (EDT)[39m
+Environment : production
+Port        : 1337
+[90m--------------------------------------------------------[39m
+==================================================================================
+= BEGIN REQUEST | ::ffff:27.67.26.153 - /chat/test/notify - undefined
+== BEGIN CONTROLLER | MessageController -> notify
+=== BEGIN SERVICE | NotificationServices -> testNotification
+=== END SERVICE   | NotificationServices -> testNotification
+== END CONTROLLER   | MessageController -> notify
+= END REQUEST   | ::ffff:27.67.26.153 - /chat/test/notify - undefined
+==================================================================================
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+Push notification to : a62f2731073fc8c1189151c06e052bd216bad229e00ca0c8d609cc3419f6cf74
+Push notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+Push notification to : ccc5c14078a94c9893838ce5dae4a0fc61f9d669fd9becdbcf7703ad3f15808c
+APN socketError: Error: read ECONNRESET
+APN disconnected
+APN socketError: Error: read ECONNRESET
+APN disconnected
+APN connected: 1
+APN transmitted
+APN transmitted
+APN transmitted
+APN transmitted
+APN completed
+APN error: 8
+APN disconnected
+APN socketError: Error: read ECONNRESET
+APN disconnected
+APN socketError: Error: read ECONNRESET
+APN disconnected
+APN socketError: Error: socket hang up
+APN disconnected
+APN connected: 1
+APN transmitted
+APN completed
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+==================================================================================
+= BEGIN REQUEST | ::ffff:27.67.26.153 - /chat/test/notify - undefined
+== BEGIN CONTROLLER | MessageController -> notify
+=== BEGIN SERVICE | NotificationServices -> testNotification
+=== END SERVICE   | NotificationServices -> testNotification
+== END CONTROLLER   | MessageController -> notify
+= END REQUEST   | ::ffff:27.67.26.153 - /chat/test/notify - undefined
+==================================================================================
+APN transmitted
+APN completed
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+APN transmitted
+APN completed
+Push notification to : a62f2731073fc8c1189151c06e052bd216bad229e00ca0c8d609cc3419f6cf74
+APN transmitted
+APN completed
+Push notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+APN transmitted
+APN completed
+Push notification to : ccc5c14078a94c9893838ce5dae4a0fc61f9d669fd9becdbcf7703ad3f15808c
+APN error: 8
+APN disconnected
+APN socketError: Error: read ECONNRESET
+APN disconnected
+APN socketError: Error: read ECONNRESET
+APN disconnected
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+APN socketError: Error: read ECONNRESET
+APN disconnected
+APN socketError: Error: read ECONNRESET
+APN disconnected
+APN socketError: Error: socket hang up
+APN socketError: Error: 140153516980096:error:14094414:SSL routines:SSL3_READ_BYTES:sslv3 alert certificate revoked:../deps/openssl/openssl/ssl/s3_pkt.c:1300:SSL alert number 44
+
+APN disconnected
+APN socketError: Error: read ECONNRESET
+APN disconnected
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+APN socketError: Error: read ECONNRESET
+APN disconnected
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=182&fileName=307.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=182&fileName=307.jpg - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=192&fileName=330.jpg - undefined
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=199&fileName=339.jpg - undefined
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=200&fileName=340.jpg - undefined
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=198&fileName=338.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=178&fileName=299.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=192&fileName=330.jpg - undefined
+==================================================================================
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=199&fileName=339.jpg - undefined
+==================================================================================
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=200&fileName=340.jpg - undefined
+==================================================================================
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=198&fileName=338.jpg - undefined
+==================================================================================
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=178&fileName=299.jpg - undefined
+==================================================================================
+APN socketError: Error: socket hang up
+APN socketError: Error: 140153516980096:error:14094414:SSL routines:SSL3_READ_BYTES:sslv3 alert certificate revoked:../deps/openssl/openssl/ssl/s3_pkt.c:1300:SSL alert number 44
+
+APN disconnected
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/groupinfo/search - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> search
+=== BEGIN SERVICE | ExpGroupInfoServices -> search
+=== END SERVICE   | ExpGroupInfoServices -> search
+== END CONTROLLER   | GroupInfoController -> search
+= END REQUEST   | ::ffff:58.187.99.15 - /api/groupinfo/search - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=2&fileName=6.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=2&fileName=6.jpg - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=3&fileName=8.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=3&fileName=8.jpg - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=10&fileName=35.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=group-cover&recordId=10&fileName=35.jpg - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/contestinfo/create - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> create
+== END CONTROLLER   | ContestInfoController -> create
+=== BEGIN SERVICE | ExpContestInfoServices -> create
+=== END SERVICE   | ExpContestInfoServices -> create
+= END REQUEST   | ::ffff:58.187.99.15 - /api/contestinfo/create - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/upload - multipart/form-data; boundary=Boundary+814B35FCF346421F
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ImageManageController -> upload
+== END CONTROLLER   | ImageManageController -> upload
+=== BEGIN SERVICE | ExpImageManageServices -> upload
+=== END SERVICE   | ExpImageManageServices -> upload
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/upload - multipart/form-data; boundary=Boundary+814B35FCF346421F
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/contestinfo/invite - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> invite
+== END CONTROLLER   | ContestInfoController -> invite
+=== BEGIN SERVICE | ExpContestInfoServices -> inviteGroup
+=== END SERVICE   | ExpContestInfoServices -> inviteGroup
+= END REQUEST   | ::ffff:58.187.99.15 - /api/contestinfo/invite - application/x-www-form-urlencoded
+==================================================================================
+=== BEGIN SERVICE | NotificationServices -> inviteJoinContest
+=== END SERVICE   | NotificationServices -> inviteJoinContest
+=== BEGIN SERVICE | NotificationServices -> inviteJoinContest
+=== END SERVICE   | NotificationServices -> inviteJoinContest
+Push notification to : a62f2731073fc8c1189151c06e052bd216bad229e00ca0c8d609cc3419f6cf74
+Push notification to : ccc5c14078a94c9893838ce5dae4a0fc61f9d669fd9becdbcf7703ad3f15808c
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/contestinfo/detail?id=206 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> detail
+=== BEGIN SERVICE | ExpContestInfoServices -> detail
+=== END SERVICE   | ExpContestInfoServices -> detail
+== END CONTROLLER   | ContestInfoController -> detail
+= END REQUEST   | ::ffff:58.187.99.15 - /api/contestinfo/detail?id=206 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=206&fileName=346.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=206&fileName=346.jpg - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=206&fileName=346.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:58.187.99.15 - /api/imagemanage/download?entityName=contest-cover&recordId=206&fileName=346.jpg - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/contestinfo/players - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> players
+== END CONTROLLER   | ContestInfoController -> players
+=== BEGIN SERVICE | ExpContestInfoServices -> listPlayers
+=== END SERVICE   | ExpContestInfoServices -> listPlayers
+= END REQUEST   | ::ffff:58.187.99.15 - /api/contestinfo/players - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:58.187.99.15 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+error: Forever detected script exited with code: null

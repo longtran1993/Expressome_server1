@@ -1,0 +1,93 @@
+
+
+   Sails              <|
+   v0.10.5             |\
+                      /|.\
+                     / || \
+                   ,'  |'  \
+                .-'.-==|/_--'
+                `--'-------' 
+   __---___--___---___--___---___--___
+ ____---___--___---___--___---___--___-__
+
+Server lifted in `/opt/expresssome_testing`
+To see your app, visit [4mhttp://localhost:1337[24m
+To shut down Sails, press <CTRL> + C at any time.
+
+[90m--------------------------------------------------------[39m
+[90m:: Sat Jul 04 2015 07:14:18 GMT-0400 (EDT)[39m
+
+Environment : production
+Port        : 1337
+[90m--------------------------------------------------------[39m
+==================================================================================
+= BEGIN REQUEST | ::ffff:27.67.26.153 - /chat/test/notify - undefined
+== BEGIN CONTROLLER | MessageController -> notify
+=== BEGIN SERVICE | NotificationServices -> testNotification
+=== END SERVICE   | NotificationServices -> testNotification
+== END CONTROLLER   | MessageController -> notify
+= END REQUEST   | ::ffff:27.67.26.153 - /chat/test/notify - undefined
+==================================================================================
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+Push notification to : a62f2731073fc8c1189151c06e052bd216bad229e00ca0c8d609cc3419f6cf74
+Push notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+Push notification to : ccc5c14078a94c9893838ce5dae4a0fc61f9d669fd9becdbcf7703ad3f15808c
+APN socketError: Error: socket hang up
+APN disconnected
+APN socketError: Error: read ECONNRESET
+APN disconnected
+APN socketError: Error: socket hang up
+APN socketError: Error: 140398600746880:error:14094414:SSL routines:SSL3_READ_BYTES:sslv3 alert certificate revoked:../deps/openssl/openssl/ssl/s3_pkt.c:1300:SSL alert number 44
+
+APN disconnected
+APN socketError: Error: socket hang up
+APN socketError: Error: 140398600746880:error:14094414:SSL routines:SSL3_READ_BYTES:sslv3 alert certificate revoked:../deps/openssl/openssl/ssl/s3_pkt.c:1300:SSL alert number 44
+
+APN disconnected
+APN socketError: Error: read ECONNRESET
+APN disconnected
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+APN socketError: Error: read ECONNRESET
+APN disconnected
+APN socketError: Error: read ECONNRESET
+APN disconnected
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+APN socketError: Error: read ECONNRESET
+APN disconnected
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+==================================================================================
+= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+error: Forever detected script exited with code: null

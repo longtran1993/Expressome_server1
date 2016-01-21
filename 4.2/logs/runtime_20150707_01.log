@@ -1,0 +1,1989 @@
+[32minfo: [39m
+[32minfo: [39m
+[32minfo: [39m   Sails              <|
+[32minfo: [39m   v0.10.5             |\
+[32minfo: [39m                      /|.\
+[32minfo: [39m                     / || \
+[32minfo: [39m                   ,'  |'  \
+[32minfo: [39m                .-'.-==|/_--'
+[32minfo: [39m                `--'-------' 
+[32minfo: [39m   __---___--___---___--___---___--___
+[32minfo: [39m ____---___--___---___--___---___--___-__
+[32minfo: [39m
+[32minfo: [39mServer lifted in `/opt/expresssome_testing`
+[32minfo: [39mTo see your app, visit [4mhttp://localhost:1337[24m
+[32minfo: [39mTo shut down Sails, press <CTRL> + C at any time.
+[37m[39m
+[34mdebug: [39m[90m--------------------------------------------------------[39m
+[34mdebug: [39m[90m:: Tue Jul 07 2015 11:04:32 GMT-0400 (EDT)[39m
+[37m[39m
+[34mdebug: [39mEnvironment : development
+[34mdebug: [39mPort        : 1337
+[34mdebug: [39m[90m--------------------------------------------------------[39m
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/groupinfo/search - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | GroupInfoController -> search
+[32minfo: [39m=== BEGIN SERVICE | ExpGroupInfoServices -> search
+[32minfo: [39m=== END SERVICE   | ExpGroupInfoServices -> search
+[32minfo: [39m== END CONTROLLER   | GroupInfoController -> search
+[32minfo: [39m= END REQUEST   | ::ffff:118.70.183.127 - /api/groupinfo/search - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/imagemanage/download?entityName=group-cover&recordId=6&fileName=26.jpg - undefined
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m= END REQUEST   | ::ffff:118.70.183.127 - /api/imagemanage/download?entityName=group-cover&recordId=6&fileName=26.jpg - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/groupinfo/members - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | GroupInfoController -> members
+[32minfo: [39m== END CONTROLLER   | GroupInfoController -> leave
+[32minfo: [39m=== BEGIN SERVICE | ExpGroupInfoServices -> listMembers
+[32minfo: [39m=== END SERVICE   | ExpGroupInfoServices -> listMembers
+[32minfo: [39m= END REQUEST   | ::ffff:118.70.183.127 - /api/groupinfo/members - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/imagemanage/download?entityName=user-avatar&recordId=93&fileName=328.jpg - undefined
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m= END REQUEST   | ::ffff:118.70.183.127 - /api/imagemanage/download?entityName=user-avatar&recordId=93&fileName=328.jpg - undefined
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/authenticate/registry - application/x-www-form-urlencoded
+[32minfo: [39m== BEGIN CONTROLLER | AuthenticateController -> registry
+[32minfo: [39m== END CONTROLLER   | AuthenticateController -> registry
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> registry
+[32minfo: [39m=== END SERVICE   | UserAuthService -> registry
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/authenticate/registry - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/groupinfo/create - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | GroupInfoController -> create
+[32minfo: [39m== END CONTROLLER   | GroupInfoController -> create
+[32minfo: [39m=== BEGIN SERVICE | ExpGroupInfoServices -> create
+[32minfo: [39m=== END SERVICE   | ExpGroupInfoServices -> create
+[32minfo: [39m=== BEGIN SERVICE | ChatRoomServices -> joinGroupPage
+[32minfo: [39m=== END SERVICE   | ChatRoomServices -> joinGroupPage
+[32minfo: [39m=== BEGIN SERVICE | ChatEventServices -> newEvent
+[32minfo: [39m=== BEGIN SERVICE | ChatEventServices -> joinGroup
+[32minfo: [39m=== END SERVICE   | ChatEventServices -> joinGroup
+[32minfo: [39m=== END SERVICE   | ChatEventServices -> newEvent
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> joinGroupPage
+[32minfo: [39m=== END SERVICE   | NotificationServices -> joinGroupPage
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/groupinfo/create - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/imagemanage/upload - multipart/form-data; boundary=Boundary+53C7B602A7794FF5
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> upload
+[32minfo: [39m== END CONTROLLER   | ImageManageController -> upload
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> upload
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> upload
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/imagemanage/upload - multipart/form-data; boundary=Boundary+53C7B602A7794FF5
+[32minfo: [39m==================================================================================
+[32minfo: [39m=== New socket connected: 
+[32minfo: [39m{ id: 1590,
+  socketId: 'AjRxVskSDGhD1oaBDAOk',
+  connectedAt: '2015-07-07T15:10:09.591Z',
+  createdAt: '2015-07-07T15:10:09.591Z',
+  updatedAt: '2015-07-07T15:10:09.591Z' }
+[32minfo: [39m== BEGIN CONTROLLER | AuthenticateController -> join
+[32minfo: [39m== END CONTROLLER   | AuthenticateController -> join
+[32minfo: [39m=== BEGIN SERVICE | ChatSocketConnectServices -> join
+[32minfo: [39m=== END SERVICE   | ChatSocketConnectServices -> join
+[32minfo: [39m=== BEGIN SERVICE | ChatSocketConnectServices -> grouppage
+[32minfo: [39m=== END SERVICE   | ChatSocketConnectServices -> grouppage
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMissMessageData
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMissMessageData
+[32minfo: [39m== BEGIN CONTROLLER | GroupPageController -> message
+[32minfo: [39m== END CONTROLLER   | GroupPageController -> message
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+[32minfo: [39m=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+[32minfo: [39m== BEGIN CONTROLLER | GroupPageController -> message
+[32minfo: [39m== END CONTROLLER   | GroupPageController -> message
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+[32minfo: [39m=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/groupinfo/members - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | GroupInfoController -> members
+[32minfo: [39m== END CONTROLLER   | GroupInfoController -> leave
+[32minfo: [39m=== BEGIN SERVICE | ExpGroupInfoServices -> listMembers
+[32minfo: [39m=== END SERVICE   | ExpGroupInfoServices -> listMembers
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/groupinfo/members - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/imagemanage/download?entityName=group-cover&recordId=80&fileName=445.jpg - undefined
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/imagemanage/download?entityName=group-cover&recordId=80&fileName=445.jpg - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m== BEGIN CONTROLLER | GroupPageController -> message
+[32minfo: [39m== END CONTROLLER   | GroupPageController -> message
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+[32minfo: [39m=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+Updated to: 
+{ id: 353,
+  status: 'offline',
+  userId: 123,
+  deviceId: 144,
+  socketId: 1590,
+  roomId: 69,
+  joinedAt: '2015-07-07T15:10:09.000Z',
+  leftAt: '2015-07-07T15:25:53.934Z',
+  recordStatus: 1,
+  createdAt: '2015-07-07T15:10:09.000Z',
+  updatedAt: '2015-07-07T15:25:53.934Z' }
+[32minfo: [39m=== Socket disconnected: 
+[32minfo: [39m{ id: 1590,
+  socketId: 'AjRxVskSDGhD1oaBDAOk',
+  userId: 123,
+  deviceId: 144,
+  connectedAt: '2015-07-07T15:10:09.000Z',
+  disconnectedAt: '2015-07-07T15:25:53.000Z',
+  recordStatus: 1,
+  createdAt: '2015-07-07T15:10:09.000Z',
+  updatedAt: '2015-07-07T15:25:53.000Z' }
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m=== New socket connected: 
+[32minfo: [39m{ id: 1591,
+  socketId: 'i2-LSq3ZQ-67JUygDAOl',
+  connectedAt: '2015-07-07T15:31:26.203Z',
+  createdAt: '2015-07-07T15:31:26.203Z',
+  updatedAt: '2015-07-07T15:31:26.203Z' }
+[32minfo: [39m== BEGIN CONTROLLER | AuthenticateController -> join
+[32minfo: [39m== END CONTROLLER   | AuthenticateController -> join
+[32minfo: [39m=== BEGIN SERVICE | ChatSocketConnectServices -> join
+[32minfo: [39m=== END SERVICE   | ChatSocketConnectServices -> join
+[32minfo: [39m=== BEGIN SERVICE | ChatSocketConnectServices -> grouppage
+[32minfo: [39m=== END SERVICE   | ChatSocketConnectServices -> grouppage
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMissMessageData
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMissMessageData
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m=== BEGIN SERVICE | ContentPlayerServices -> setRound2Players
+[32minfo: [39m=== END SERVICE   | ContentPlayerServices -> setRound2Players
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound2
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound2
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m== BEGIN CONTROLLER | GroupPageController -> message
+[32minfo: [39m== END CONTROLLER   | GroupPageController -> message
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+[32minfo: [39m=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/groupinfo/members - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | GroupInfoController -> members
+[32minfo: [39m== END CONTROLLER   | GroupInfoController -> leave
+[32minfo: [39m=== BEGIN SERVICE | ExpGroupInfoServices -> listMembers
+[32minfo: [39m=== END SERVICE   | ExpGroupInfoServices -> listMembers
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/groupinfo/members - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/groupinfo/members - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | GroupInfoController -> members
+[32minfo: [39m== END CONTROLLER   | GroupInfoController -> leave
+[32minfo: [39m=== BEGIN SERVICE | ExpGroupInfoServices -> listMembers
+[32minfo: [39m=== END SERVICE   | ExpGroupInfoServices -> listMembers
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/groupinfo/members - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.136.115 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:118.70.183.127 - /chat/test/notify - application/x-www-form-urlencoded
+[32minfo: [39m== BEGIN CONTROLLER | MessageController -> notify
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> testNotification
+[32minfo: [39m=== END SERVICE   | NotificationServices -> testNotification
+[32minfo: [39m== END CONTROLLER   | MessageController -> notify
+[32minfo: [39m= END REQUEST   | ::ffff:118.70.183.127 - /chat/test/notify - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[34mdebug: [39mPush notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+[34mdebug: [39mPush notification to : ccc5c14078a94c9893838ce5dae4a0fc61f9d669fd9becdbcf7703ad3f15808c
+[34mdebug: [39mPush notification to : a62f2731073fc8c1189151c06e052bd216bad229e00ca0c8d609cc3419f6cf74
+[34mdebug: [39mPush notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+APN connected: 1
+APN transmitted
+APN transmitted
+APN transmitted
+APN transmitted
+APN completed
+APN error: 8
+APN disconnected
+APN connected: 1
+APN transmitted
+APN transmitted
+APN completed
+APN error: 8
+APN disconnected
+APN connected: 1
+APN transmitted
+APN completed
+APN error: 8
+APN disconnected
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:118.70.183.127 - /chat/test/notify - application/x-www-form-urlencoded
+[32minfo: [39m== BEGIN CONTROLLER | MessageController -> notify
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> testNotification
+[32minfo: [39m=== END SERVICE   | NotificationServices -> testNotification
+[32minfo: [39m== END CONTROLLER   | MessageController -> notify
+[32minfo: [39m= END REQUEST   | ::ffff:118.70.183.127 - /chat/test/notify - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[34mdebug: [39mPush notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+[34mdebug: [39mPush notification to : ccc5c14078a94c9893838ce5dae4a0fc61f9d669fd9becdbcf7703ad3f15808c
+[34mdebug: [39mPush notification to : a62f2731073fc8c1189151c06e052bd216bad229e00ca0c8d609cc3419f6cf74
+[34mdebug: [39mPush notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+APN connected: 1
+APN transmitted
+APN transmitted
+APN transmitted
+APN transmitted
+APN completed
+APN error: 8
+APN disconnected
+APN connected: 1
+APN transmitted
+APN transmitted
+APN completed
+APN error: 8
+APN disconnected
+APN connected: 1
+APN transmitted
+APN completed
+APN error: 8
+APN disconnected
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m=== New socket connected: 
+[32minfo: [39m{ id: 1592,
+  socketId: '2s3OvBYorkI6Iy4xDAOm',
+  connectedAt: '2015-07-07T16:27:32.463Z',
+  createdAt: '2015-07-07T16:27:32.463Z',
+  updatedAt: '2015-07-07T16:27:32.463Z' }
+[32minfo: [39m== BEGIN CONTROLLER | AuthenticateController -> join
+[32minfo: [39m== END CONTROLLER   | AuthenticateController -> join
+[32minfo: [39m=== BEGIN SERVICE | ChatSocketConnectServices -> join
+[32minfo: [39m=== END SERVICE   | ChatSocketConnectServices -> join
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+Updated to: 
+{ id: 353,
+  status: 'offline',
+  userId: 123,
+  deviceId: 144,
+  socketId: 1591,
+  roomId: 69,
+  joinedAt: '2015-07-07T15:10:09.000Z',
+  leftAt: '2015-07-07T16:34:09.748Z',
+  recordStatus: 1,
+  createdAt: '2015-07-07T15:10:09.000Z',
+  updatedAt: '2015-07-07T16:34:09.748Z' }
+[32minfo: [39m=== Socket disconnected: 
+[32minfo: [39m{ id: 1591,
+  socketId: 'i2-LSq3ZQ-67JUygDAOl',
+  userId: 123,
+  deviceId: 144,
+  connectedAt: '2015-07-07T15:31:26.000Z',
+  disconnectedAt: '2015-07-07T16:34:09.000Z',
+  recordStatus: 1,
+  createdAt: '2015-07-07T15:31:26.000Z',
+  updatedAt: '2015-07-07T16:34:09.000Z' }
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/authenticate/login - application/x-www-form-urlencoded
+[32minfo: [39m== BEGIN CONTROLLER | AuthenticateController -> login
+[32minfo: [39m== END CONTROLLER   | AuthenticateController -> login
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> login
+[32minfo: [39m=== END SERVICE   | UserAuthService -> login
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/authenticate/login - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/authenticate/login - application/x-www-form-urlencoded
+[32minfo: [39m== BEGIN CONTROLLER | AuthenticateController -> login
+[32minfo: [39m== END CONTROLLER   | AuthenticateController -> login
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> login
+[32minfo: [39m=== END SERVICE   | UserAuthService -> login
+{ deviceType: 'iOS',
+  deviceName: '8.4',
+  udid: 'FDC10091-DED0-4A13-9BE6-E76B2E6FDC18',
+  machineCode: '',
+  userId: 91 }
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/authenticate/login - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/groupinfo/detail?id=4 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | GroupInfoController -> detail
+[32minfo: [39m=== BEGIN SERVICE | ExpGroupInfoServices -> detail
+[32minfo: [39m=== END SERVICE   | ExpGroupInfoServices -> detail
+[32minfo: [39m== END CONTROLLER   | GroupInfoController -> detail
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/groupinfo/detail?id=4 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/imagemanage/download?entityName=contest-cover&recordId=262&fileName=440.jpg - undefined
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/imagemanage/download?entityName=contest-cover&recordId=262&fileName=440.jpg - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/imagemanage/download?entityName=contest-cover&recordId=251&fileName=423.jpg - undefined
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/imagemanage/download?entityName=contest-cover&recordId=251&fileName=423.jpg - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m=== New socket connected: 
+[32minfo: [39m{ id: 1593,
+  socketId: 'cLlT09vsEHJvZy6WDAOn',
+  connectedAt: '2015-07-07T16:37:23.986Z',
+  createdAt: '2015-07-07T16:37:23.986Z',
+  updatedAt: '2015-07-07T16:37:23.986Z' }
+[32minfo: [39m== BEGIN CONTROLLER | AuthenticateController -> join
+[32minfo: [39m== END CONTROLLER   | AuthenticateController -> join
+[32minfo: [39m=== BEGIN SERVICE | ChatSocketConnectServices -> join
+[32minfo: [39m=== END SERVICE   | ChatSocketConnectServices -> join
+[32minfo: [39m=== BEGIN SERVICE | ChatSocketConnectServices -> grouppage
+[32minfo: [39m=== END SERVICE   | ChatSocketConnectServices -> grouppage
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMissMessageData
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMissMessageData
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/detail?id=262 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> detail
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> detail
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> detail
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> detail
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/detail?id=262 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/players - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> players
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> players
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listPlayers
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listPlayers
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/players - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/imagemanage/download?entityName=user-avatar&recordId=121&fileName=436.jpg - undefined
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/imagemanage/download?entityName=user-avatar&recordId=121&fileName=436.jpg - undefined
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/detail?id=262 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> detail
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> detail
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> detail
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> detail
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/detail?id=262 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/players - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> players
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> players
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listPlayers
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listPlayers
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/players - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/detail?id=262 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> detail
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> detail
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> detail
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> detail
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/detail?id=262 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/players - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> players
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> players
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listPlayers
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listPlayers
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/players - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m== BEGIN CONTROLLER | GroupPageController -> message
+[32minfo: [39m== END CONTROLLER   | GroupPageController -> message
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+[32minfo: [39m=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+[34mdebug: [39mPush notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+APN connected: 1
+APN transmitted
+APN completed
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/authenticate/login - application/x-www-form-urlencoded
+[32minfo: [39m== BEGIN CONTROLLER | AuthenticateController -> login
+[32minfo: [39m== END CONTROLLER   | AuthenticateController -> login
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> login
+[32minfo: [39m=== END SERVICE   | UserAuthService -> login
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/authenticate/login - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/authenticate/registry - application/x-www-form-urlencoded
+[32minfo: [39m== BEGIN CONTROLLER | AuthenticateController -> registry
+[32minfo: [39m== END CONTROLLER   | AuthenticateController -> registry
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> registry
+[32minfo: [39m=== END SERVICE   | UserAuthService -> registry
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/authenticate/registry - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/authenticate/setmachinecode - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | AuthenticateController -> setMachineCode
+[32minfo: [39m== END CONTROLLER   | AuthenticateController -> setMachineCode
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/authenticate/setmachinecode - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/groupinfo/search - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | GroupInfoController -> search
+[32minfo: [39m=== BEGIN SERVICE | ExpGroupInfoServices -> search
+[32minfo: [39m=== END SERVICE   | ExpGroupInfoServices -> search
+[32minfo: [39m== END CONTROLLER   | GroupInfoController -> search
+[32minfo: [39m= END REQUEST   | undefined - /api/groupinfo/search - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/groupinfo/search - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | GroupInfoController -> search
+[32minfo: [39m=== BEGIN SERVICE | ExpGroupInfoServices -> search
+[32minfo: [39m=== END SERVICE   | ExpGroupInfoServices -> search
+[32minfo: [39m== END CONTROLLER   | GroupInfoController -> search
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/groupinfo/search - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=group-cover&recordId=3&fileName=8.jpg - undefined
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=group-cover&recordId=3&fileName=8.jpg - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=group-cover&recordId=4&fileName=12.jpg - undefined
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=group-cover&recordId=2&fileName=6.jpg - undefined
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=group-cover&recordId=4&fileName=12.jpg - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=group-cover&recordId=2&fileName=6.jpg - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=group-cover&recordId=6&fileName=26.jpg - undefined
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=group-cover&recordId=6&fileName=26.jpg - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=group-cover&recordId=15&fileName=63.jpg - undefined
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=group-cover&recordId=15&fileName=63.jpg - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=group-cover&recordId=16&fileName=64.jpg - undefined
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=group-cover&recordId=16&fileName=64.jpg - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/groupinfo/members - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | GroupInfoController -> members
+[32minfo: [39m== END CONTROLLER   | GroupInfoController -> leave
+[32minfo: [39m=== BEGIN SERVICE | ExpGroupInfoServices -> listMembers
+[32minfo: [39m=== END SERVICE   | ExpGroupInfoServices -> listMembers
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=group-cover&recordId=17&fileName=65.jpg - undefined
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/groupinfo/members - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=group-cover&recordId=22&fileName=71.jpg - undefined
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=group-cover&recordId=17&fileName=65.jpg - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=group-cover&recordId=22&fileName=71.jpg - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=user-avatar&recordId=21&fileName=81.jpg - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=user-avatar&recordId=99&fileName=349.jpg - undefined
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=user-avatar&recordId=21&fileName=81.jpg - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=user-avatar&recordId=99&fileName=349.jpg - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=user-avatar&recordId=37&fileName=104.jpg - undefined
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=user-avatar&recordId=37&fileName=104.jpg - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/groupinfo/join - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | GroupInfoController -> join
+[32minfo: [39m== END CONTROLLER   | GroupInfoController -> join
+[32minfo: [39m=== BEGIN SERVICE | ExpGroupInfoServices -> addMember
+[32minfo: [39m=== END SERVICE   | ExpGroupInfoServices -> addMember
+[32minfo: [39m=== BEGIN SERVICE | ChatRoomServices -> joinGroupPage
+[32minfo: [39m=== END SERVICE   | ChatRoomServices -> joinGroupPage
+[32minfo: [39m=== BEGIN SERVICE | ChatEventServices -> newEvent
+[32minfo: [39m=== BEGIN SERVICE | ChatEventServices -> joinGroup
+[32minfo: [39m=== END SERVICE   | ChatEventServices -> joinGroup
+[32minfo: [39m=== END SERVICE   | ChatEventServices -> newEvent
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> joinGroupPage
+[32minfo: [39m=== END SERVICE   | NotificationServices -> joinGroupPage
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/groupinfo/join - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+APN transmitted
+APN completed
+[34mdebug: [39mPush notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+[32minfo: [39m=== New socket connected: 
+[32minfo: [39m{ id: 1594,
+  socketId: '3x-a_ZL3PfnLDbr2DAOo',
+  connectedAt: '2015-07-07T17:56:25.801Z',
+  createdAt: '2015-07-07T17:56:25.801Z',
+  updatedAt: '2015-07-07T17:56:25.801Z' }
+[32minfo: [39m== BEGIN CONTROLLER | AuthenticateController -> join
+[32minfo: [39m== END CONTROLLER   | AuthenticateController -> join
+[32minfo: [39m=== BEGIN SERVICE | ChatSocketConnectServices -> join
+[32minfo: [39m=== END SERVICE   | ChatSocketConnectServices -> join
+[32minfo: [39m=== BEGIN SERVICE | ChatSocketConnectServices -> grouppage
+[32minfo: [39m=== END SERVICE   | ChatSocketConnectServices -> grouppage
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMissMessageData
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMissMessageData
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=contest-cover&recordId=262&fileName=440.jpg - undefined
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/imagemanage/download?entityName=contest-cover&recordId=262&fileName=440.jpg - undefined
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m=== New socket connected: 
+[32minfo: [39m{ id: 1595,
+  socketId: 'AfnGBczRlXLTuJhCDAOp',
+  connectedAt: '2015-07-07T17:57:20.716Z',
+  createdAt: '2015-07-07T17:57:20.716Z',
+  updatedAt: '2015-07-07T17:57:20.716Z' }
+[32minfo: [39m== BEGIN CONTROLLER | AuthenticateController -> join
+[32minfo: [39m== END CONTROLLER   | AuthenticateController -> join
+[32minfo: [39m=== BEGIN SERVICE | ChatSocketConnectServices -> join
+[32minfo: [39m=== END SERVICE   | ChatSocketConnectServices -> join
+[32minfo: [39m== BEGIN CONTROLLER | GroupPageController -> message
+[32minfo: [39m== END CONTROLLER   | GroupPageController -> message
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMessage
+[32minfo: [39m== BEGIN CONTROLLER | GroupPageController -> message
+[32minfo: [39m== END CONTROLLER   | GroupPageController -> message
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+[32minfo: [39m=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+APN transmitted
+APN completed
+[34mdebug: [39mPush notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m== BEGIN CONTROLLER | GroupPageController -> message
+[32minfo: [39m== END CONTROLLER   | GroupPageController -> message
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+[32minfo: [39m=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+APN transmitted
+APN completed
+[34mdebug: [39mPush notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+APN disconnected
+Updated to: 
+{ id: 355,
+  status: 'offline',
+  userId: 124,
+  deviceId: 146,
+  socketId: 1594,
+  roomId: 4,
+  joinedAt: '2015-07-07T17:56:26.000Z',
+  leftAt: '2015-07-07T17:58:41.303Z',
+  recordStatus: 1,
+  createdAt: '2015-07-07T17:56:26.000Z',
+  updatedAt: '2015-07-07T17:58:41.303Z' }
+[32minfo: [39m=== Socket disconnected: 
+[32minfo: [39m{ id: 1594,
+  socketId: '3x-a_ZL3PfnLDbr2DAOo',
+  userId: 124,
+  deviceId: 146,
+  connectedAt: '2015-07-07T17:56:25.000Z',
+  disconnectedAt: '2015-07-07T17:58:41.000Z',
+  recordStatus: 1,
+  createdAt: '2015-07-07T17:56:25.000Z',
+  updatedAt: '2015-07-07T17:58:41.000Z' }
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m=== New socket connected: 
+[32minfo: [39m{ id: 1596,
+  socketId: 'KZJnYMwnAZXMcxwODAOq',
+  connectedAt: '2015-07-07T17:59:49.745Z',
+  createdAt: '2015-07-07T17:59:49.745Z',
+  updatedAt: '2015-07-07T17:59:49.745Z' }
+[32minfo: [39m== BEGIN CONTROLLER | AuthenticateController -> join
+[32minfo: [39m== END CONTROLLER   | AuthenticateController -> join
+[32minfo: [39m=== BEGIN SERVICE | ChatSocketConnectServices -> join
+[32minfo: [39m=== END SERVICE   | ChatSocketConnectServices -> join
+[32minfo: [39m=== BEGIN SERVICE | ChatSocketConnectServices -> grouppage
+[32minfo: [39m=== END SERVICE   | ChatSocketConnectServices -> grouppage
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMissMessageData
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMissMessageData
+[32minfo: [39m== BEGIN CONTROLLER | GroupPageController -> message
+[32minfo: [39m== END CONTROLLER   | GroupPageController -> message
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+[32minfo: [39m=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+[34mdebug: [39mPush notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+APN connected: 1
+APN transmitted
+APN completed
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m== BEGIN CONTROLLER | GroupPageController -> message
+[32minfo: [39m== END CONTROLLER   | GroupPageController -> message
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+[32minfo: [39m=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+APN transmitted
+APN completed
+[34mdebug: [39mPush notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:118.70.183.127 - /chat/test/notify - application/x-www-form-urlencoded
+[32minfo: [39m== BEGIN CONTROLLER | MessageController -> notify
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> testNotification
+[32minfo: [39m=== END SERVICE   | NotificationServices -> testNotification
+[32minfo: [39m== END CONTROLLER   | MessageController -> notify
+[32minfo: [39m= END REQUEST   | ::ffff:118.70.183.127 - /chat/test/notify - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+APN transmitted
+APN completed
+[34mdebug: [39mPush notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+APN transmitted
+APN completed
+[34mdebug: [39mPush notification to : ccc5c14078a94c9893838ce5dae4a0fc61f9d669fd9becdbcf7703ad3f15808c
+APN transmitted
+APN completed
+[34mdebug: [39mPush notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+APN transmitted
+APN completed
+[34mdebug: [39mPush notification to : a62f2731073fc8c1189151c06e052bd216bad229e00ca0c8d609cc3419f6cf74
+APN error: 8
+APN disconnected
+APN connected: 1
+APN transmitted
+APN transmitted
+APN completed
+APN error: 8
+APN disconnected
+APN connected: 1
+APN transmitted
+APN completed
+APN error: 8
+APN disconnected
+[32minfo: [39m== BEGIN CONTROLLER | GroupPageController -> message
+[32minfo: [39m== END CONTROLLER   | GroupPageController -> message
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+[32minfo: [39m=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+[34mdebug: [39mPush notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+APN connected: 1
+APN transmitted
+APN completed
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/groupinfo/members - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | GroupInfoController -> members
+[32minfo: [39m== END CONTROLLER   | GroupInfoController -> leave
+[32minfo: [39m=== BEGIN SERVICE | ExpGroupInfoServices -> listMembers
+[32minfo: [39m=== END SERVICE   | ExpGroupInfoServices -> listMembers
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/groupinfo/members - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+Updated to: 
+{ id: 354,
+  status: 'offline',
+  userId: 91,
+  deviceId: 145,
+  socketId: 1593,
+  roomId: 4,
+  joinedAt: '2015-07-07T16:37:24.000Z',
+  leftAt: '2015-07-07T18:02:55.505Z',
+  recordStatus: 1,
+  createdAt: '2015-07-07T16:37:24.000Z',
+  updatedAt: '2015-07-07T18:02:55.505Z' }
+[32minfo: [39m=== Socket disconnected: 
+[32minfo: [39m{ id: 1593,
+  socketId: 'cLlT09vsEHJvZy6WDAOn',
+  userId: 91,
+  deviceId: 145,
+  connectedAt: '2015-07-07T16:37:23.000Z',
+  disconnectedAt: '2015-07-07T18:02:55.000Z',
+  recordStatus: 1,
+  createdAt: '2015-07-07T16:37:23.000Z',
+  updatedAt: '2015-07-07T18:02:55.000Z' }
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/groupinfo/members - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | GroupInfoController -> members
+[32minfo: [39m== END CONTROLLER   | GroupInfoController -> leave
+[32minfo: [39m=== BEGIN SERVICE | ExpGroupInfoServices -> listMembers
+[32minfo: [39m=== END SERVICE   | ExpGroupInfoServices -> listMembers
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/groupinfo/members - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/authenticate/login - application/x-www-form-urlencoded
+[32minfo: [39m== BEGIN CONTROLLER | AuthenticateController -> login
+[32minfo: [39m== END CONTROLLER   | AuthenticateController -> login
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> login
+[32minfo: [39m=== END SERVICE   | UserAuthService -> login
+{ deviceType: 'iOS',
+  deviceName: '8.1.3',
+  udid: '9D9DCE16-D8F1-4E3B-A11C-D8560085BA63',
+  machineCode: '',
+  userId: 91 }
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/authenticate/login - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/groupinfo/detail?id=4 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | GroupInfoController -> detail
+[32minfo: [39m=== BEGIN SERVICE | ExpGroupInfoServices -> detail
+[32minfo: [39m=== END SERVICE   | ExpGroupInfoServices -> detail
+[32minfo: [39m== END CONTROLLER   | GroupInfoController -> detail
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/groupinfo/detail?id=4 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:14.162.131.165 - /api/imagemanage/download?entityName=contest-cover&recordId=262&fileName=440.jpg - undefined
+[32minfo: [39m== BEGIN CONTROLLER | ImageManageController -> download
+[32minfo: [39m=== BEGIN SERVICE | ExpImageManageServices -> download
+[32minfo: [39m=== END SERVICE   | ExpImageManageServices -> download
+[32minfo: [39m= END REQUEST   | ::ffff:14.162.131.165 - /api/imagemanage/download?entityName=contest-cover&recordId=262&fileName=440.jpg - undefined
+[32minfo: [39m==================================================================================
+[32minfo: [39m=== New socket connected: 
+[32minfo: [39m{ id: 1597,
+  socketId: 'PrftWsbZTmjkjEDeDAOr',
+  connectedAt: '2015-07-07T18:05:09.595Z',
+  createdAt: '2015-07-07T18:05:09.595Z',
+  updatedAt: '2015-07-07T18:05:09.595Z' }
+[32minfo: [39m== BEGIN CONTROLLER | AuthenticateController -> join
+[32minfo: [39m== END CONTROLLER   | AuthenticateController -> join
+[32minfo: [39m=== BEGIN SERVICE | ChatSocketConnectServices -> join
+[32minfo: [39m=== END SERVICE   | ChatSocketConnectServices -> join
+[32minfo: [39m=== BEGIN SERVICE | ChatSocketConnectServices -> grouppage
+[32minfo: [39m=== END SERVICE   | ChatSocketConnectServices -> grouppage
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMissMessageData
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMissMessageData
+[32minfo: [39m== BEGIN CONTROLLER | GroupPageController -> message
+[32minfo: [39m== END CONTROLLER   | GroupPageController -> message
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+[32minfo: [39m=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+APN transmitted
+APN completed
+[34mdebug: [39mPush notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+[32minfo: [39m== BEGIN CONTROLLER | GroupPageController -> message
+[32minfo: [39m== END CONTROLLER   | GroupPageController -> message
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+[32minfo: [39m=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+APN transmitted
+APN completed
+[34mdebug: [39mPush notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+Updated to: 
+{ id: 355,
+  status: 'offline',
+  userId: 124,
+  deviceId: 146,
+  socketId: 1596,
+  roomId: 4,
+  joinedAt: '2015-07-07T17:56:26.000Z',
+  leftAt: '2015-07-07T18:05:52.313Z',
+  recordStatus: 1,
+  createdAt: '2015-07-07T17:56:26.000Z',
+  updatedAt: '2015-07-07T18:05:52.313Z' }
+[32minfo: [39m=== Socket disconnected: 
+[32minfo: [39m{ id: 1596,
+  socketId: 'KZJnYMwnAZXMcxwODAOq',
+  userId: 124,
+  deviceId: 146,
+  connectedAt: '2015-07-07T17:59:49.000Z',
+  disconnectedAt: '2015-07-07T18:05:52.000Z',
+  recordStatus: 1,
+  createdAt: '2015-07-07T17:59:49.000Z',
+  updatedAt: '2015-07-07T18:05:52.000Z' }
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m== BEGIN CONTROLLER | GroupPageController -> message
+[32minfo: [39m== END CONTROLLER   | GroupPageController -> message
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+[32minfo: [39m=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+APN transmitted
+APN completed
+[34mdebug: [39mPush notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+APN transmitted
+APN completed
+[34mdebug: [39mPush notification to : a62f2731073fc8c1189151c06e052bd216bad229e00ca0c8d609cc3419f6cf74
+APN error: 8
+APN disconnected
+[32minfo: [39m== BEGIN CONTROLLER | GroupPageController -> message
+[32minfo: [39m== END CONTROLLER   | GroupPageController -> message
+[32minfo: [39m=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== END SERVICE   | ChatMessageServices -> groupPageMessage
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+[32minfo: [39m=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+[34mdebug: [39mPush notification to : a14324b9a70d96650e6325cc414029e429a3d2c08a08bff2be08f3c0d44fd986
+[34mdebug: [39mPush notification to : a62f2731073fc8c1189151c06e052bd216bad229e00ca0c8d609cc3419f6cf74
+APN connected: 1
+APN transmitted
+APN transmitted
+APN completed
+APN error: 8
+APN disconnected
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+Updated to: 
+{ id: 356,
+  status: 'offline',
+  userId: 91,
+  deviceId: 147,
+  socketId: 1597,
+  roomId: 4,
+  joinedAt: '2015-07-07T18:05:09.000Z',
+  leftAt: '2015-07-07T18:09:31.490Z',
+  recordStatus: 1,
+  createdAt: '2015-07-07T18:05:09.000Z',
+  updatedAt: '2015-07-07T18:09:31.490Z' }
+[32minfo: [39m=== Socket disconnected: 
+[32minfo: [39m{ id: 1597,
+  socketId: 'PrftWsbZTmjkjEDeDAOr',
+  userId: 91,
+  deviceId: 147,
+  connectedAt: '2015-07-07T18:05:09.000Z',
+  disconnectedAt: '2015-07-07T18:09:31.000Z',
+  recordStatus: 1,
+  createdAt: '2015-07-07T18:05:09.000Z',
+  updatedAt: '2015-07-07T18:09:31.000Z' }
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:58.187.99.109 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m== BEGIN CONTROLLER | ContestInfoController -> listNew
+[32minfo: [39m=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+[32minfo: [39m=== END SERVICE   | ExpContestInfoServices -> listNew
+[32minfo: [39m== END CONTROLLER   | ContestInfoController -> listNew
+[32minfo: [39m= END REQUEST   | ::ffff:58.187.99.109 - /api/contestinfo/listnew?page=1 - undefined
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+[32minfo: [39m=== END SERVICE   | NotificationServices -> contestStartRound1
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:70.208.0.103 - /api/groupinfo/search - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m= END REQUEST   | undefined - /api/groupinfo/search - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:70.208.0.103 - /api/groupinfo/search - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m= END REQUEST   | ::ffff:70.208.0.103 - /api/groupinfo/search - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[32minfo: [39m==================================================================================
+[32minfo: [39m= BEGIN REQUEST | ::ffff:70.208.0.103 - /api/groupinfo/search - application/x-www-form-urlencoded
+[32minfo: [39m=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+[32minfo: [39m=== END SERVICE   | UserAuthService -> checkAuthToken
+[32minfo: [39m= END REQUEST   | ::ffff:70.208.0.103 - /api/groupinfo/search - application/x-www-form-urlencoded
+[32minfo: [39m==================================================================================
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39m[Error (E_UNKNOWN) Encountered an unexpected error] Details:  Error: Could not connect to MySQL:
+Error: connect ECONNREFUSED
+
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+[34mdebug: [39mBEGIN | CRON JOB SCHEDULE
+[34mdebug: [39mEND   | CRON JOB SCHEDULE
+error: Forever detected script exited with code: null

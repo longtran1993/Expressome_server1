@@ -1,0 +1,67 @@
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+
+
+   Sails              <|
+   v0.10.5             |\
+                      /|.\
+                     / || \
+                   ,'  |'  \
+                .-'.-==|/_--'
+                `--'-------' 
+   __---___--___---___--___---___--___
+ ____---___--___---___--___---___--___-__
+
+Server lifted in `/opt/expresssome_testing`
+To see your app, visit [4mhttp://localhost:1337[24m
+To shut down Sails, press <CTRL> + C at any time.
+
+[90m--------------------------------------------------------[39m
+[90m:: Wed Jul 01 2015 17:39:02 GMT-0400 (EDT)[39m
+
+Environment : production
+Port        : 1337
+[90m--------------------------------------------------------[39m
+=== New socket connected: 
+{ id: 719,
+  socketId: 'wqFqMLacss0Dfbd5jvss',
+  connectedAt: '2015-07-01T21:39:09.251Z',
+  createdAt: '2015-07-01T21:39:09.251Z',
+  updatedAt: '2015-07-01T21:39:09.251Z' }
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+=== END SERVICE   | NotificationServices -> contestStartRound1
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+APN connected: 1
+APN transmitted
+APN transmitted
+APN completed
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | ContentPlayerServices -> setRound2Players
+=== END SERVICE   | ContentPlayerServices -> setRound2Players
+=== BEGIN SERVICE | NotificationServices -> contestStartRound2
+=== END SERVICE   | NotificationServices -> contestStartRound2
+groupWinnerArray
+[ 36, 38 ]
+APN transmitted
+APN completed
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+APN transmitted
+APN completed
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+APN transmitted
+APN completed
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+APN transmitted
+APN completed
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+error: Forever detected script exited with code: null

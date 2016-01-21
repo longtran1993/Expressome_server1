@@ -1,0 +1,626 @@
+
+
+   Sails              <|
+   v0.10.5             |\
+                      /|.\
+                     / || \
+                   ,'  |'  \
+                .-'.-==|/_--'
+                `--'-------' 
+   __---___--___---___--___---___--___
+ ____---___--___---___--___---___--___-__
+
+Server lifted in `/opt/expresssome_testing`
+To see your app, visit [4mhttp://localhost:1337[24m
+To shut down Sails, press <CTRL> + C at any time.
+
+[90m--------------------------------------------------------[39m
+[90m:: Wed Jul 01 2015 17:27:19 GMT-0400 (EDT)[39m
+
+Environment : production
+Port        : 1337
+[90m--------------------------------------------------------[39m
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - / - undefined
+= END REQUEST   | ::ffff:118.70.183.127 - / - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /test-package/font-awesome/css/font-awesome.min.css - undefined
+= END REQUEST   | ::ffff:118.70.183.127 - /test-package/font-awesome/css/font-awesome.min.css - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /test-package/bootstrap/css/bootstrap.min.css - undefined
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /test-package/my-app/jquery.min.js - undefined
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /test-package/my-app/main.css - undefined
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /test-package/bootstrap/js/bootstrap.min.js - undefined
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /test-package/sails-socket/dependencies/sails.io.js - undefined
+= END REQUEST   | ::ffff:118.70.183.127 - /test-package/bootstrap/css/bootstrap.min.css - undefined
+==================================================================================
+= END REQUEST   | ::ffff:118.70.183.127 - /test-package/my-app/main.css - undefined
+==================================================================================
+= END REQUEST   | ::ffff:118.70.183.127 - /test-package/bootstrap/js/bootstrap.min.js - undefined
+==================================================================================
+= END REQUEST   | ::ffff:118.70.183.127 - /test-package/sails-socket/dependencies/sails.io.js - undefined
+==================================================================================
+= END REQUEST   | ::ffff:118.70.183.127 - /test-package/my-app/jquery.min.js - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /test-package/my-app/app.js - undefined
+= END REQUEST   | ::ffff:118.70.183.127 - /test-package/my-app/app.js - undefined
+==================================================================================
+=== New socket connected: 
+{ id: 713,
+  socketId: 'eQLZ10FyT2LrBE84hEHV',
+  connectedAt: '2015-07-01T21:27:40.263Z',
+  createdAt: '2015-07-01T21:27:40.263Z',
+  updatedAt: '2015-07-01T21:27:40.263Z' }
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== New socket connected: 
+{ id: 714,
+  socketId: 'jIdAZvGntan96sZ-hEHW',
+  connectedAt: '2015-07-01T21:28:52.566Z',
+  createdAt: '2015-07-01T21:28:52.566Z',
+  updatedAt: '2015-07-01T21:28:52.566Z' }
+=== New socket connected: 
+{ id: 715,
+  socketId: 'wTyzoBCHfbLsf7JrhEHX',
+  connectedAt: '2015-07-01T21:28:52.581Z',
+  createdAt: '2015-07-01T21:28:52.581Z',
+  updatedAt: '2015-07-01T21:28:52.581Z' }
+== BEGIN CONTROLLER | AuthenticateController -> join
+== END CONTROLLER   | AuthenticateController -> join
+=== BEGIN SERVICE | ChatSocketConnectServices -> join
+=== END SERVICE   | ChatSocketConnectServices -> join
+=== BEGIN SERVICE | ChatSocketConnectServices -> grouppage
+=== END SERVICE   | ChatSocketConnectServices -> grouppage
+=== BEGIN SERVICE | ChatMessageServices -> groupPageMissMessageData
+=== END SERVICE   | ChatMessageServices -> groupPageMissMessageData
+== BEGIN CONTROLLER | GroupPageController -> message
+== END CONTROLLER   | GroupPageController -> message
+=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+=== END SERVICE   | ChatMessageServices -> groupPageMessage
+=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+== BEGIN CONTROLLER | GroupPageController -> message
+== END CONTROLLER   | GroupPageController -> message
+=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+=== END SERVICE   | ChatMessageServices -> groupPageMessage
+=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+== BEGIN CONTROLLER | GroupPageController -> message
+== END CONTROLLER   | GroupPageController -> message
+=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+=== END SERVICE   | ChatMessageServices -> groupPageMessage
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | ContentPlayerServices -> setRound2Players
+=== END SERVICE   | ContentPlayerServices -> setRound2Players
+=== BEGIN SERVICE | NotificationServices -> contestStartRound2
+=== END SERVICE   | NotificationServices -> contestStartRound2
+=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+== BEGIN CONTROLLER | GroupPageController -> message
+== END CONTROLLER   | GroupPageController -> message
+=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+=== END SERVICE   | ChatMessageServices -> groupPageMessage
+=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/groupinfo/members - application/x-www-form-urlencoded
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/imagemanage/download?entityName=group-cover&recordId=36&fileName=152.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:118.70.183.127 - /api/imagemanage/download?entityName=group-cover&recordId=36&fileName=152.jpg - undefined
+==================================================================================
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> members
+== END CONTROLLER   | GroupInfoController -> leave
+=== BEGIN SERVICE | ExpGroupInfoServices -> listMembers
+=== END SERVICE   | ExpGroupInfoServices -> listMembers
+= END REQUEST   | ::ffff:118.70.183.127 - /api/groupinfo/members - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/groupinfo/leave - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> leave
+== END CONTROLLER   | GroupInfoController -> leave
+=== BEGIN SERVICE | ExpGroupInfoServices -> removeMember
+=== END SERVICE   | ExpGroupInfoServices -> removeMember
+=== BEGIN SERVICE | ChatRoomServices -> leaveGroupPage
+=== END SERVICE   | ChatRoomServices -> leaveGroupPage
+=== BEGIN SERVICE | ChatEventServices -> newEvent
+=== BEGIN SERVICE | ChatEventServices -> leaveGroup
+=== END SERVICE   | ChatEventServices -> leaveGroup
+=== END SERVICE   | ChatEventServices -> newEvent
+= END REQUEST   | ::ffff:118.70.183.127 - /api/groupinfo/leave - application/x-www-form-urlencoded
+==================================================================================
+=== Socket disconnected: 
+{ id: 715,
+  socketId: 'wTyzoBCHfbLsf7JrhEHX',
+  userId: 62,
+  deviceId: 60,
+  connectedAt: '2015-07-01T21:28:52.000Z',
+  disconnectedAt: '2015-07-01T21:29:09.000Z',
+  recordStatus: 1,
+  createdAt: '2015-07-01T21:28:52.000Z',
+  updatedAt: '2015-07-01T21:29:09.000Z' }
+=== New socket connected: 
+{ id: 716,
+  socketId: 'b3RThxeeBeG3UBKQhEHY',
+  connectedAt: '2015-07-01T21:29:09.790Z',
+  createdAt: '2015-07-01T21:29:09.790Z',
+  updatedAt: '2015-07-01T21:29:09.790Z' }
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/groupinfo/search - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> search
+=== BEGIN SERVICE | ExpGroupInfoServices -> search
+=== END SERVICE   | ExpGroupInfoServices -> search
+== END CONTROLLER   | GroupInfoController -> search
+= END REQUEST   | ::ffff:118.70.183.127 - /api/groupinfo/search - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/groupinfo/search - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> search
+=== BEGIN SERVICE | ExpGroupInfoServices -> search
+=== END SERVICE   | ExpGroupInfoServices -> search
+== END CONTROLLER   | GroupInfoController -> search
+= END REQUEST   | ::ffff:118.70.183.127 - /api/groupinfo/search - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/groupinfo/search - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> search
+=== BEGIN SERVICE | ExpGroupInfoServices -> search
+=== END SERVICE   | ExpGroupInfoServices -> search
+== END CONTROLLER   | GroupInfoController -> search
+= END REQUEST   | ::ffff:118.70.183.127 - /api/groupinfo/search - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/imagemanage/download?entityName=group-cover&recordId=30&fileName=128.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:118.70.183.127 - /api/imagemanage/download?entityName=group-cover&recordId=30&fileName=128.jpg - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/groupinfo/members - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> members
+== END CONTROLLER   | GroupInfoController -> leave
+=== BEGIN SERVICE | ExpGroupInfoServices -> listMembers
+=== END SERVICE   | ExpGroupInfoServices -> listMembers
+= END REQUEST   | ::ffff:118.70.183.127 - /api/groupinfo/members - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/imagemanage/download?entityName=user-avatar&recordId=15&fileName=70.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:118.70.183.127 - /api/imagemanage/download?entityName=user-avatar&recordId=15&fileName=70.jpg - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/imagemanage/download?entityName=user-avatar&recordId=16&fileName=74.jpg - undefined
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/imagemanage/download?entityName=user-avatar&recordId=13&fileName=60.jpg - undefined
+= END REQUEST   | ::ffff:118.70.183.127 - /api/imagemanage/download?entityName=user-avatar&recordId=16&fileName=74.jpg - undefined
+==================================================================================
+== BEGIN CONTROLLER | ImageManageController -> download
+=== BEGIN SERVICE | ExpImageManageServices -> download
+=== END SERVICE   | ExpImageManageServices -> download
+= END REQUEST   | ::ffff:118.70.183.127 - /api/imagemanage/download?entityName=user-avatar&recordId=13&fileName=60.jpg - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/groupinfo/join - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | GroupInfoController -> join
+== END CONTROLLER   | GroupInfoController -> join
+=== BEGIN SERVICE | ExpGroupInfoServices -> addMember
+=== END SERVICE   | ExpGroupInfoServices -> addMember
+=== BEGIN SERVICE | ChatRoomServices -> joinGroupPage
+=== END SERVICE   | ChatRoomServices -> joinGroupPage
+=== BEGIN SERVICE | ChatEventServices -> newEvent
+=== BEGIN SERVICE | ChatEventServices -> joinGroup
+=== END SERVICE   | ChatEventServices -> joinGroup
+=== END SERVICE   | ChatEventServices -> newEvent
+=== BEGIN SERVICE | NotificationServices -> joinGroupPage
+=== END SERVICE   | NotificationServices -> joinGroupPage
+= END REQUEST   | ::ffff:118.70.183.127 - /api/groupinfo/join - application/x-www-form-urlencoded
+==================================================================================
+=== New socket connected: 
+{ id: 717,
+  socketId: '0SqZlBGL7kXcFJlHhEHZ',
+  connectedAt: '2015-07-01T21:29:28.927Z',
+  createdAt: '2015-07-01T21:29:28.927Z',
+  updatedAt: '2015-07-01T21:29:28.927Z' }
+=== New socket connected: 
+{ id: 718,
+  socketId: 'jNx4nm43PmZgtrlahEHa',
+  connectedAt: '2015-07-01T21:29:28.959Z',
+  createdAt: '2015-07-01T21:29:28.959Z',
+  updatedAt: '2015-07-01T21:29:28.959Z' }
+== BEGIN CONTROLLER | AuthenticateController -> join
+== END CONTROLLER   | AuthenticateController -> join
+=== BEGIN SERVICE | ChatSocketConnectServices -> join
+=== END SERVICE   | ChatSocketConnectServices -> join
+=== BEGIN SERVICE | ChatSocketConnectServices -> grouppage
+=== END SERVICE   | ChatSocketConnectServices -> grouppage
+=== BEGIN SERVICE | ChatMessageServices -> groupPageMissMessageData
+=== END SERVICE   | ChatMessageServices -> groupPageMissMessageData
+== BEGIN CONTROLLER | GroupPageController -> message
+== END CONTROLLER   | GroupPageController -> message
+=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+=== END SERVICE   | ChatMessageServices -> groupPageMessage
+=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+== BEGIN CONTROLLER | GroupPageController -> message
+== END CONTROLLER   | GroupPageController -> message
+=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+=== END SERVICE   | ChatMessageServices -> groupPageMessage
+=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+== BEGIN CONTROLLER | GroupPageController -> message
+== END CONTROLLER   | GroupPageController -> message
+=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+=== END SERVICE   | ChatMessageServices -> groupPageMessage
+=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+== BEGIN CONTROLLER | GroupPageController -> message
+== END CONTROLLER   | GroupPageController -> message
+=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+=== END SERVICE   | ChatMessageServices -> groupPageMessage
+=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+== BEGIN CONTROLLER | GroupPageController -> message
+== END CONTROLLER   | GroupPageController -> message
+=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+=== END SERVICE   | ChatMessageServices -> groupPageMessage
+=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+== BEGIN CONTROLLER | GroupPageController -> message
+== END CONTROLLER   | GroupPageController -> message
+=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+=== END SERVICE   | ChatMessageServices -> groupPageMessage
+=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+== BEGIN CONTROLLER | GroupPageController -> message
+== END CONTROLLER   | GroupPageController -> message
+=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+=== END SERVICE   | ChatMessageServices -> groupPageMessage
+=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+== BEGIN CONTROLLER | GroupPageController -> message
+== END CONTROLLER   | GroupPageController -> message
+=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+=== END SERVICE   | ChatMessageServices -> groupPageMessage
+=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+== BEGIN CONTROLLER | GroupPageController -> message
+== END CONTROLLER   | GroupPageController -> message
+=== BEGIN SERVICE | ChatMessageServices -> groupPageMessage
+=== END SERVICE   | ChatMessageServices -> groupPageMessage
+=== BEGIN SERVICE | NotificationServices -> sendGroupChatMessage
+=== END SERVICE   | NotificationServices -> sendGroupChatMessage
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/detail?id=72 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> detail
+=== BEGIN SERVICE | ExpContestInfoServices -> detail
+=== END SERVICE   | ExpContestInfoServices -> detail
+== END CONTROLLER   | ContestInfoController -> detail
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/detail?id=72 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/players - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> players
+== END CONTROLLER   | ContestInfoController -> players
+=== BEGIN SERVICE | ExpContestInfoServices -> listPlayers
+=== END SERVICE   | ExpContestInfoServices -> listPlayers
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/players - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/join - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> join
+== END CONTROLLER   | ContestInfoController -> join
+=== BEGIN SERVICE | ExpContestInfoServices -> addPlayer
+=== END SERVICE   | ExpContestInfoServices -> addPlayer
+=== BEGIN SERVICE | NotificationServices -> joinIntoContest
+=== END SERVICE   | NotificationServices -> joinIntoContest
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/join - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/detail?id=72 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> detail
+=== BEGIN SERVICE | ExpContestInfoServices -> detail
+=== END SERVICE   | ExpContestInfoServices -> detail
+== END CONTROLLER   | ContestInfoController -> detail
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/detail?id=72 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/players - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> players
+== END CONTROLLER   | ContestInfoController -> players
+=== BEGIN SERVICE | ExpContestInfoServices -> listPlayers
+=== END SERVICE   | ExpContestInfoServices -> listPlayers
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/players - application/x-www-form-urlencoded
+==================================================================================
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/join - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> join
+== END CONTROLLER   | ContestInfoController -> join
+=== BEGIN SERVICE | ExpContestInfoServices -> addPlayer
+=== END SERVICE   | ExpContestInfoServices -> addPlayer
+=== BEGIN SERVICE | NotificationServices -> joinIntoContest
+=== END SERVICE   | NotificationServices -> joinIntoContest
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/join - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/detail?id=72 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> detail
+=== BEGIN SERVICE | ExpContestInfoServices -> detail
+=== END SERVICE   | ExpContestInfoServices -> detail
+== END CONTROLLER   | ContestInfoController -> detail
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/detail?id=72 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/players - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> players
+== END CONTROLLER   | ContestInfoController -> players
+=== BEGIN SERVICE | ExpContestInfoServices -> listPlayers
+=== END SERVICE   | ExpContestInfoServices -> listPlayers
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/players - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/join - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> join
+== END CONTROLLER   | ContestInfoController -> join
+=== BEGIN SERVICE | ExpContestInfoServices -> addPlayer
+=== END SERVICE   | ExpContestInfoServices -> addPlayer
+=== BEGIN SERVICE | NotificationServices -> joinIntoContest
+=== END SERVICE   | NotificationServices -> joinIntoContest
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/join - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/detail?id=72 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> detail
+=== BEGIN SERVICE | ExpContestInfoServices -> detail
+=== END SERVICE   | ExpContestInfoServices -> detail
+== END CONTROLLER   | ContestInfoController -> detail
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/detail?id=72 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/players - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> players
+== END CONTROLLER   | ContestInfoController -> players
+=== BEGIN SERVICE | ExpContestInfoServices -> listPlayers
+=== END SERVICE   | ExpContestInfoServices -> listPlayers
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/players - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/detail?id=72 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> detail
+=== BEGIN SERVICE | ExpContestInfoServices -> detail
+=== END SERVICE   | ExpContestInfoServices -> detail
+== END CONTROLLER   | ContestInfoController -> detail
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/detail?id=72 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/players - application/x-www-form-urlencoded
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> players
+== END CONTROLLER   | ContestInfoController -> players
+=== BEGIN SERVICE | ExpContestInfoServices -> listPlayers
+=== END SERVICE   | ExpContestInfoServices -> listPlayers
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/players - application/x-www-form-urlencoded
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+Updated to: 
+{ id: 217,
+  status: 'offline',
+  userId: 62,
+  deviceId: 60,
+  socketId: 718,
+  roomId: 22,
+  joinedAt: '2015-07-01T21:29:29.000Z',
+  leftAt: '2015-07-01T21:30:52.164Z',
+  recordStatus: 1,
+  createdAt: '2015-07-01T21:29:29.000Z',
+  updatedAt: '2015-07-01T21:30:52.164Z' }
+=== Socket disconnected: 
+{ id: 718,
+  socketId: 'jNx4nm43PmZgtrlahEHa',
+  userId: 62,
+  deviceId: 60,
+  connectedAt: '2015-07-01T21:29:28.000Z',
+  disconnectedAt: '2015-07-01T21:30:52.000Z',
+  recordStatus: 1,
+  createdAt: '2015-07-01T21:29:28.000Z',
+  updatedAt: '2015-07-01T21:30:52.000Z' }
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestStartRound1
+=== END SERVICE   | NotificationServices -> contestStartRound1
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+APN connected: 1
+APN transmitted
+APN transmitted
+APN completed
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | ContentPlayerServices -> setRound2Players
+=== END SERVICE   | ContentPlayerServices -> setRound2Players
+=== BEGIN SERVICE | NotificationServices -> contestStartRound2
+=== END SERVICE   | NotificationServices -> contestStartRound2
+groupWinnerArray
+[ 36, 38 ]
+APN transmitted
+APN completed
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+APN transmitted
+APN completed
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+=== BEGIN SERVICE | NotificationServices -> contestHasFinished
+=== END SERVICE   | NotificationServices -> contestHasFinished
+APN transmitted
+APN completed
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+APN transmitted
+APN completed
+Push notification to : f0468401d7e34fc71182921ee48c5d24789a115d992b144bebaa1bb163d27021
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+=== BEGIN SERVICE | UserAuthService -> checkAuthToken
+=== END SERVICE   | UserAuthService -> checkAuthToken
+== BEGIN CONTROLLER | ContestInfoController -> listNew
+=== BEGIN SERVICE | ExpContestInfoServices -> listNew
+=== END SERVICE   | ExpContestInfoServices -> listNew
+== END CONTROLLER   | ContestInfoController -> listNew
+= END REQUEST   | ::ffff:118.70.183.127 - /api/contestinfo/listnew?page=1 - undefined
+==================================================================================
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+error: Forever detected script exited with code: null

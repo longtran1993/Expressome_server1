@@ -1,0 +1,70 @@
+<header class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6"><h1>ExpressSome Test Client</h1></div>
+            <div class="col-xs-6 text-right"><span id="messageCount">0</span></div>
+        </div>
+    </div>
+</header>
+
+<div id="main" class="page-body">
+    <div class="container">
+
+        <div class="row connection-info">
+
+            <div class="col-sm-6">
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1" title="Auth token"><i class="fa fa-key"></i></span>
+                    <input type="text" name="authToken" id="authToken" class="form-control" placeholder="Auth token"
+                           value="">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1" title="Contest ID"><i class="fa fa-key"></i></span>
+                    <input type="text" name="contestId" id="contestId" class="form-control" placeholder="Contest ID" value="">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <button class="btn btn-danger connect" id="btnConnect">Authenticate...</button>
+            </div>
+            <div class="col-sm-6">
+                <button class="btn btn-danger connect" id="joinContest">Join contest...</button>
+            </div>
+        </div>
+
+        <div class="row working-info">
+            <div class="col-sm-6">
+                <div class="input-group message-input">
+                    <textarea class="form-control" id="message" name="message" rows="10">Enter your message here</textarea>
+                </div>
+                <button class="btn btn-danger" id="groupchat">Group page</button>
+                <button class="btn btn-danger" id="contestchat">Contest chat</button>
+            </div>
+
+            <div class="col-sm-6 message-display-box" id="messageDisplayBox">
+                <div class="message-box">
+                    <div class="message-content">This is demoe message</div>
+                    <div class="message-info">
+                        <span><strong>Author</strong></span>
+                        <span>2015-05-05 00:00:00</span>
+                        <span class="pull-right"><strong>sdkfkfsh</strong></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6">Duong Nguyen</div>
+            <div class="col-xs-6 text-right">Hypertech Enterprise Solutions</div>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="./test-package/sails-socket/dependencies/sails.io.js"></script>
+<script type="text/javascript" src="./test-package/my-app/app.js"></script>

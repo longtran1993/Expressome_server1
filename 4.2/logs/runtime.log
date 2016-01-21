@@ -1,0 +1,69 @@
+
+
+   Sails              <|
+   v0.10.5             |\
+                      /|.\
+                     / || \
+                   ,'  |'  \
+                .-'.-==|/_--'
+                `--'-------' 
+   __---___--___---___--___---___--___
+ ____---___--___---___--___---___--___-__
+
+Server lifted in `/opt/expresssome_testing`
+To see your app, visit [4mhttp://localhost:1337[24m
+To shut down Sails, press <CTRL> + C at any time.
+
+[90m--------------------------------------------------------[39m
+[90m:: Wed Jul 01 2015 17:23:38 GMT-0400 (EDT)[39m
+
+Environment : production
+Port        : 1337
+[90m--------------------------------------------------------[39m
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - / - undefined
+= END REQUEST   | ::ffff:118.70.183.127 - / - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /test-package/font-awesome/css/font-awesome.min.css - undefined
+= END REQUEST   | ::ffff:118.70.183.127 - /test-package/font-awesome/css/font-awesome.min.css - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /test-package/bootstrap/css/bootstrap.min.css - undefined
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /test-package/my-app/jquery.min.js - undefined
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /test-package/my-app/main.css - undefined
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /test-package/bootstrap/js/bootstrap.min.js - undefined
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /test-package/sails-socket/dependencies/sails.io.js - undefined
+= END REQUEST   | ::ffff:118.70.183.127 - /test-package/bootstrap/css/bootstrap.min.css - undefined
+==================================================================================
+= END REQUEST   | ::ffff:118.70.183.127 - /test-package/my-app/main.css - undefined
+==================================================================================
+= END REQUEST   | ::ffff:118.70.183.127 - /test-package/my-app/jquery.min.js - undefined
+==================================================================================
+= END REQUEST   | ::ffff:118.70.183.127 - /test-package/bootstrap/js/bootstrap.min.js - undefined
+==================================================================================
+= END REQUEST   | ::ffff:118.70.183.127 - /test-package/sails-socket/dependencies/sails.io.js - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /test-package/my-app/app.js - undefined
+= END REQUEST   | ::ffff:118.70.183.127 - /test-package/my-app/app.js - undefined
+==================================================================================
+==================================================================================
+= BEGIN REQUEST | ::ffff:118.70.183.127 - /test-package/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 - undefined
+= END REQUEST   | ::ffff:118.70.183.127 - /test-package/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 - undefined
+==================================================================================
+=== New socket connected: 
+{ id: 712,
+  socketId: 'DCpnclGAD085aRHkgOLK',
+  connectedAt: '2015-07-01T21:24:17.424Z',
+  createdAt: '2015-07-01T21:24:17.424Z',
+  updatedAt: '2015-07-01T21:24:17.424Z' }
+BEGIN | CRON JOB SCHEDULE
+END   | CRON JOB SCHEDULE
+error: Forever detected script exited with code: null
